@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /hbaseClient
+
+hbase:
+    zookeeper.quorum: hadoop101,hadoop102,hadoop103
+    zookeeper.property.clientPort: 2181
